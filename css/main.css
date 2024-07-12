@@ -1,0 +1,58 @@
+/* ================== Global=================== */
+:root {
+
+    --main-bg-color: #f9f6f6ca;
+    --bs-card-bg: black;
+
+}
+
+.w-15 {
+    width: 15%;
+}
+
+
+.loading-screen {
+    z-index: 999;
+    display: flex;
+    color: white;
+}
+
+i {
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: #888 !important;
+}
+
+/* ================== main secction =================== */
+.meal-layer {
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-bg-color);
+    top: 110%;
+    cursor: pointer;
+    transition: top 0.3s ease-in-out;
+}
+
+.col-md-3 {
+    cursor: pointer;
+}
+
+.col-md-3:hover .meal-layer {
+    top: 0%;
+}
+
+/* ================== sideBar =================== */
+.side-nav-menu {
+    left: -16rem;
+}
+
+.links ul li {
+    top: 300px;
+    cursor: pointer;
+}
+
+.card {
+    --bs-card-bg: trasparent;
+}

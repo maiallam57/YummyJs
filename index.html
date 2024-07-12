@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <title>Yummy | Mai Allam</title>
+        <link rel="icon" href="images/logo.png">
+    </head>
+    <body class="bg-black">
+
+        <!-- loading-screen -->
+        <section
+            class="loading-screen position-fixed top-0 start-0 end-0 bottom-0 bg-black justify-content-center align-items-center">
+            <i class="fa fa-spinner fa-spin fa-5x"></i>
+        </section>
+
+        <!-- side-nav-menu  -->
+        <section
+            class="side-nav-menu min-vh-100 position-fixed d-flex top-0 z-1">
+            <div
+                class="nav-tab d-flex flex-column justify-content-between min-vh-100 p-4 bg-black text-white">
+                <div class="links">
+                    <ul class="list-unstyled overflow-hidden">
+                        <li class="py-2 position-relative"
+                            id="search">Search</li>
+                        <li class="py-2 position-relative"
+                            id="categories">Categories</li>
+                        <li class="py-2 position-relative" id="area">Area</li>
+                        <li class="py-2 position-relative"
+                            id="ingredients">Ingredients</li>
+                        <li class="py-2 position-relative" id="contact">Contact
+                            Us</li>
+                    </ul>
+                </div>
+                <div class="nav-footer">
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <div class="footer">
+                        <p>Copyright Â© 2024 All Rights <br>Reserved.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="w-15 d-flex flex-column justify-content-between align-items-center py-4 bg-white text-black">
+                <img class="w-100" src="images/logo.png" alt="logo yummy">
+                <i id="open"
+                    class="fa-solid open-close-icon fa-2x fa-align-justify"></i>
+                <i id="close"
+                    class="fa-solid fa-xmark fa-2x fa-align-justify d-none"></i>
+
+                <div>
+                    <i class="fa-solid fa-globe d-block"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- main-section -->
+        <section>
+            <div class="container text-white py-5">
+                <!-- search-section -->
+                <div class="w-75 px-5 pb-5 m-auto d-flex gap-5 d-none"
+                    id="searchSection">
+                    <input class="form-control mb-3 text-white bg-transparent"
+                        type="text" id="searchedMeal"
+                        placeholder="Search by meal...">
+                    <input class="form-control mb-3 text-white bg-transparent"
+                        type="text" id="searchedMealByLetter"
+                        placeholder="Search by first letter..">
+                </div>
+
+                <div class="row" id="myMeals">
+
+                </div>
+            </div>
+        </section>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery-3.7.1.js"></script>
+        <script src="js/style.js"></script>
+    </body>
+</html>

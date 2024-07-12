@@ -331,6 +331,7 @@ async function getMealsByIngredient(ingredientName) {
 
 //! ============================ Contact =================================
 function displayContact() {
+    $("#searchSection").addClass("d-none");
     rowData.innerHTML = `<div class="contact min-vh-100 d-flex justify-content-center align-items-center">
     <div class="container w-75 text-center">
         <div class="row g-4">

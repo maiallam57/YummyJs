@@ -48,5 +48,6 @@ Contributions are welcome! Please fork the repository and create a pull request 
 ## **Contact**
 For any questions or feedback, please open an issue in the repository or contact the project maintainer:
 - Name: Mai Allam
-- GitHub: [Mai Allam](https://github.com/maiallam57)
+- GitHub: [maiallam57](https://github.com/maiallam57)
+- LinkedIn: [maiallam57](https://www.linkedin.com/in/maiallam57/)
 
